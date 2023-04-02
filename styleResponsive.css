@@ -1,0 +1,46 @@
+@media screen and (max-width: 768px) {
+    header{
+        width: 100%;
+
+    }
+    .logo{
+        margin-left: 5%;
+    }
+    .logo h1{
+        font-size: 1.1rem;
+    }
+    .nav{
+        display: none;
+    }
+    #home{
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .textos-home{
+        width: 90%;
+        margin-left: 0;
+        margin-top: 25%;
+    }
+    .textos-home h1{
+        width: 100%;
+        font-size: 1.8rem;
+    }
+    .textos-home h2{
+        font-size: 1.1rem;
+    }
+    .imagem-home{
+        display: none;
+    }
+    .btn-home{
+        margin: 0 auto;
+        width: 30%;
+        font-size: 0.9rem;
+        margin-top: 8%;
+    }
+    .btn-home:hover{
+        scale: none;
+        background: #A68BF3;
+    }
+}
